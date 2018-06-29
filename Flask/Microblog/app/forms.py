@@ -3,15 +3,8 @@ from wtforms import StringField, PasswordField, BooleanField, SubmitField, TextA
 from wtforms.validators import DataRequired, DataRequired, Email, EqualTo, ValidationError, Length
 from app.models import User
 from flask import request, g
-from app.main.forms import SearchForm
+from flask_babel import lazy_gettext as _l
 
-@bp.before_app_request
-def before_request():
-    if current_user.is_authenticated:
-        current_user.last_seen = datetime.utcnow()
-        db.session.commit()
-        g.search_form = SearchForm()
-    g.locale = str(get_locale())
 
 class LoginForm(FlaskForm):
     username= StringField('Username', validators=[DataRequired()])

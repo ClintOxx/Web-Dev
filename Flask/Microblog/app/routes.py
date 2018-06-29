@@ -6,15 +6,16 @@ from werkzeug.urls import url_parse
 from app.models import User, Post
 from datetime import datetime
 from app.email import send_password_reset_email
+from app.forms import SearchForm
 
 
 
-@app.before_request
 def before_request():
     if current_user.is_authenticated:
         current_user.last_seen = datetime.utcnow()
         db.session.commit()
-
+        g.search_form = SearchForm()
+    g.locale = str(get_locale())
 
 @app.route('/', methods=['GET', 'POST'])
 @app.route('/index', methods=['GET', 'POST'])
@@ -188,7 +189,7 @@ def reset_password(token):
 
 
 
-@bp.route('/search')
+@app.route('/search')
 @login_required
 def search():
     if not g.search_form.validate():
