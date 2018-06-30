@@ -48,6 +48,7 @@ pytz==2017.3
 PyYAML==3.12
 redis==2.10.6
 requests==2.18.4
+rq==0.11.0
 selenium==3.8.1
 six==1.11.0
 SQLAlchemy==1.2.8
