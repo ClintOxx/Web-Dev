@@ -1,4 +1,4 @@
-# Flasks sites and APis
+# Flask sites and APis
 Mix of sites/Apis I made by myself or by following tutorials
 
 
