@@ -6,3 +6,6 @@ Mix of sites/Apis I made by myself or by following tutorials
 
 ### Microblog made by following Miguel Grinberg's Microblog tutorial.
 https://clint-flask-microblog.herokuapp.com/index 
+
+### Twitter clone made by following TeamTreehouse's Build a Social Network with Flask course 
+https://clint-socialnw.herokuapp.com/
