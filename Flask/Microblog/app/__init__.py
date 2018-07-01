@@ -27,6 +27,8 @@ moment = Moment(app)
 babel = Babel(app)
 app.elasticsearch = Elasticsearch([app.config['ELASTICSEARCH_URL']]) \
     if app.config['ELASTICSEARCH_URL'] else None
+from app.api import bp as api_bp
+app.register_blueprint(api_bp, url_prefix='/api')
 
 if not app.debug and not app.testing:
     if app.config['MAIL_SERVER']:
