@@ -2,9 +2,11 @@ from flask import (Flask, g, render_template, flash, redirect, url_for, abort)
 from flask.ext.bcrypt import check_password_hash
 from flask.ext.login import (LoginManager, login_user, logout_user,
                              login_required, current_user)
-
+from models import db_proxy
 import forms
 import models
+import psycopg2
+
 
 DEBUG = True
 PORT = 8000
@@ -28,7 +30,7 @@ def load_user(userid):
 @app.before_request
 def before_request():
     """Connect to the database before each request."""
-    g.db = models.DATABASE
+    g.db = db_proxy
     g.db.connect()
     g.user= current_user
 
