@@ -1,11 +1,13 @@
-from flask import Flask, render_template
+from flask import Flask, jsonify, render_template
 
 app = Flask(__name__)
 
 stores = [
     {
-    'name': 'My Store',
-    'items': [{'name':'my item', 'price': 15.99 }]
+        'name': 'My Store',
+        'items': [
+            {'name':'my item', 'price': 15.99 }
+        ]
     }
 ]
 
@@ -31,7 +33,7 @@ def get_store(name):
 #GET /store 
 @app.route('/store')
 def get_stores():
-    pass
+    return jsonify({'stores':stores})
 
 # POST /store/<string:name>/item 
 @app.route('/store/<string:name>/item' , methods=['POST'])
@@ -53,4 +55,4 @@ def get_item_in_store(name):
 
 
 
-app.run(port=5000)
+app.run(port=5000, debug=True)
