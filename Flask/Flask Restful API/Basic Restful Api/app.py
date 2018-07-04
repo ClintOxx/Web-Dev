@@ -6,13 +6,12 @@ stores = [
     {
         'name': 'My Store',
         'items': [{'name':'my item', 'price': 15.99 }]
-    }
-]
+    }]
 
 
-""" @app.route('/')
+@app.route('/')
 def home():
-    return render_template """
+  return render_template('index.html')
 
 
 
@@ -40,7 +39,7 @@ def get_store(name):
 #GET /store 
 @app.route('/store')
 def get_stores():
-    return jsonify({'stores':stores}) #made the list "stores" into a dictionary called stores, so jsonify can convert it to json
+    return jsonify({'stores': stores}) #made the list "stores" into a dictionary called stores, so jsonify can convert it to json
 
 
 # POST /store/<string:name>/item 
