@@ -1,5 +1,5 @@
 # Flask sites and APis
-Mix of sites/Apis I made by myself or by following tutorials
+Mix of sites/Apis I made by myself or by following tutorials since Dec 2017. Some of these are old and Im just getting around to getting them hosted and uploaded.
 
 
 ## live versions 
