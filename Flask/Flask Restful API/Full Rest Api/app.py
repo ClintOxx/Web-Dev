@@ -3,6 +3,7 @@ from flask_restful import Resource, Api
 
 
 app = Flask(__name__)
+app.secret_key = 'github' 
 api = Api(app)
 
 items = []
