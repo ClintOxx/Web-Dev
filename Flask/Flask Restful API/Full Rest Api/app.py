@@ -9,14 +9,22 @@ from flask_restful import Resource, Api
 app = Flask(__name__)
 api = Api(app)
 
+items = []
 
-class Student(Resource):
-    def get(self, name): # resource for the get method
-        return{'student': name}
+class Item(Resource):
+    def get(self, name):
+        for item in items:
+            if item['name'] == name: 
+                return item
+        return {'item': None}, 404
+    
+    def post(self, name):
+        item = {'name' : name, 'price': 12.00}
+        items.append(item)
+        return item, 201
 
-
-#let api know the Student resource is accesable by api, passing the name to the Student class like @app.route
-api.add_resource(Student, '/student/<string:name>') # example http://127.0.0.1:5000/student/Rolf
+#let api know the Item resource is accessible by api, passing the name to the Item class like @app.route
+api.add_resource(Item, '/item/<string:name>') 
 
 
 
