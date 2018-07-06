@@ -4,8 +4,8 @@ from db import db
 class UserModel(db.Model):
     __tablename__ = "users" #sets name of table
 
-    id = db.colum(db.Interger, primary_key=True)  #sql Alch creates columns based on the variables
-    username = db.Column(db.string(80)) 
+    id = db.Column(db.Integer, primary_key=True)  #sql Alch creates columns based on the variables
+    username = db.Column(db.String(80)) 
     password = db.Column(db.String(80))
     
     def __init__(self, _id, username, password):

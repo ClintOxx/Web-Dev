@@ -8,6 +8,7 @@ from resources.item import Item, ItemList
 
 
 app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI']= 'sqlite:///data.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS']= False  #flask sql alchemy will track every change, but actual SQLA has its own which we will use instead
 app.secret_key = 'github' 
 api = Api(app)

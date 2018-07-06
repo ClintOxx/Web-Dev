@@ -25,7 +25,7 @@ class Item(Resource):
         item = ItemModel(name, data['price'])   #passing variables instead of dict
 
         try:
-            item.insert()
+            item.save_to_db()
         except:
             return {'Message': "an error occured inserting the item"}, 500
         
@@ -33,35 +33,23 @@ class Item(Resource):
 
 
     def delete(self, name):
-        connection = sqlite3.connect('data.db')
-        cursor = connection.cursor()
-
-        query = "DELETE FROM items WHERE name=?"
-        cursor.execute(query, (name,))
-
-        connection.commit()
-        connection.close()
-        return {'message': 'Item deleted'}
-
-    
+        item = ItemModel.find_by_name(name)
+        if item:
+            item.delete_from_db()
+        return {'message': 'item deleted'}
     
     def put(self, name):
         data = Item.parser.parse_args()
         item = ItemModel.find_by_name(name)
 
-        updated_item = ItemModel(name, data['price'])
+        
         if item is None:
-            try:
-                updated_item.insert()
-            except:
-                return {"message": "An error occurred inserting the item."}
+            item = ItemModel.find_by_name(name)
         else:
-            try:
-                updated_item.update() #using the new item info to update instead of using what ever old info "item" had
-            except:
-                raise
-                return {"message": "An error occurred updating the item."}
-        return updated_item.json()
+            item.price = data['price']
+        item.save_to_db()
+        
+        return item.json()
 
 
 
