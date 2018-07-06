@@ -12,7 +12,7 @@ class Item(Resource):
     def get(self, name):
         item = ItemModel.find_by_name(name)
         if item:
-            return item.json #convert the item object to json since db doesnt return json but an object
+            return item.json() #convert the item object to json since db doesnt return json but an object
         return{'message': 'item not found'}, 404
 
 
@@ -29,7 +29,7 @@ class Item(Resource):
         except:
             return {'Message': "an error occured inserting the item"}, 500
         
-        return item, 201
+        return item.json(), 201
 
 
     def delete(self, name):
