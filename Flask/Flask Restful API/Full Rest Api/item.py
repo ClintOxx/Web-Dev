@@ -44,7 +44,7 @@ class Item(Resource):
         cursor = connection.cursor()
 
         query = "INSERT INTO items VALUES (?,?)"
-        cursor.execute(query, (item['name'], item['[price']))
+        cursor.execute(query, (item['name'], item['price']))
 
         connection.commit()
         connection.close()
