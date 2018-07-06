@@ -3,9 +3,9 @@ from flask_restful import Api
 from flask_jwt import JWT
 from security import authenticate, identity
 
+from resources.user import UserRegister
+from resources.item import Item, ItemList
 
-from item import Item, ItemList
-from user import UserRegister
 
 app = Flask(__name__)
 app.secret_key = 'github' 
