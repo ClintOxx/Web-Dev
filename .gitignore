@@ -103,6 +103,7 @@ venv.bak/
 # mypy
 .mypy_cache/
 
+*.db
 .vscode/*
 .code-workspace
 Flask/Flask Restful API/Flask restful.code-workspace
