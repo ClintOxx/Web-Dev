@@ -21,7 +21,9 @@ Default user login:  bob:pass
 
 
 
-### Twitter clone made by following TeamTreehouse's Build a Social Network with Flask course 
+### Terrible Twitter clone 
+partially made by following TeamTreehouse's Build a Social Network with Flask course 
+
 https://clint-socialnw.herokuapp.com/
 
 'create default user and lists features' 
