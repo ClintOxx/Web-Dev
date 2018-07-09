@@ -1,4 +1,4 @@
-# The two different folders seperate rest API's that were made with just Flask itself, and made by using the Flask Restful package. 
+# Rest API's that were made with just Flask itself, and made by using the Flask Restful package. 
 
 
 ## Basic APi
@@ -12,3 +12,4 @@
 * Currently building a basic frontend for the Full Rest api 
 * You can still use Postman to contact the api endpoints
 * Uses Sqllite3 locally and Postgress on production server
+* made using flask restful
