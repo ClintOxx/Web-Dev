@@ -13,9 +13,6 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS']= False  #flask sql alchemy will tra
 app.secret_key = 'github' 
 api = Api(app)
 
-@app.before_first_request
-def create_tables():
-    db.create_all()
 
 jwt = JWT(app, authenticate, identity) #/auth
 
