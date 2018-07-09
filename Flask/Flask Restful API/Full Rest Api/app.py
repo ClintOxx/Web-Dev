@@ -5,7 +5,7 @@ from security import authenticate, identity
 
 from resources.user import UserRegister
 from resources.item import Item, ItemList
-
+from resources.store import Store, StoreList
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI']= 'sqlite:///data.db'
@@ -21,8 +21,10 @@ jwt = JWT(app, authenticate, identity) #/auth
 
 
 #let api know the resource is accessible by api, passing the name to the class like @app.route
+api.add_resource(Store, '/store/<string:name>')
 api.add_resource(Item, '/item/<string:name>') 
 api.add_resource(ItemList, '/items')
+api.add_resource(StoreList, '/stores')
 api.add_resource(UserRegister, '/register') #call UserRegister post method
 
 
