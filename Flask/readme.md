@@ -1,7 +1,7 @@
 # Flask sites and APis
 A mix of sites/Apis I made by myself or by following tutorials since Dec 2017. Some of these are old and Im just getting around to getting them hosted and uploaded.
 
-## Each site can be cloned and ran locally. Visit each folder to get the specific installation instructions
+Each site can be cloned and ran locally. Visit each folder to get the specific installation instructions
 
 
 ## live versions 
