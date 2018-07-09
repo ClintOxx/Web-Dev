@@ -13,10 +13,14 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS']= False  #flask sql alchemy will tra
 app.secret_key = 'github' 
 api = Api(app)
 
+@app.before_first_request
+def create_tables():
+    db.create_all()
+
 jwt = JWT(app, authenticate, identity) #/auth
 
 
-#let api know the Item resource is accessible by api, passing the name to the Item class like @app.route
+#let api know the resource is accessible by api, passing the name to the class like @app.route
 api.add_resource(Item, '/item/<string:name>') 
 api.add_resource(ItemList, '/items')
 api.add_resource(UserRegister, '/register') #call UserRegister post method
