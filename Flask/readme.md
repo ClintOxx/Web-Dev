@@ -13,15 +13,21 @@ Each site uses a Postgress SQl database.
 
 
 ### Microblog made by following Miguel Grinberg's Microblog tutorial.
-Default user login:  bob:pass
-'list features'
-
 https://clint-flask-microblog.herokuapp.com/index 
 
+Default user login:  bob:pass
+
+'list features'
+
+
+
 ### Twitter clone made by following TeamTreehouse's Build a Social Network with Flask course 
-'create default user and lists features' 
-new front end coming soon
 https://clint-socialnw.herokuapp.com/
+
+'create default user and lists features' 
+
+new front end coming soon
+
 
 
 ### Personal project - Reddit Sensei
