@@ -5,9 +5,11 @@ Over the last year I made some of these projects by following tutorials, while o
 
 This repo is split between my projects that use Flask and Django backends. 
 
-I plan to eventually try my hand at using Typescript to make a project.
 
 I have a couple private projects with code that I can't make public, but ill try to link to the sites where possible.
+
+
+I plan to eventually try my hand at using Typescript to make a project.
 
 
 # -work in progress- 
