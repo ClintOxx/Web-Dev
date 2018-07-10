@@ -13,7 +13,7 @@ Each website that is hosted on Heroku goes to sleep 30 mins since its last inter
 Each site uses a Postgress SQl database.
 
 
-### Microblog made by following Miguel Grinberg's Microblog tutorial.
+### Microblog 
 https://clint-flask-microblog.herokuapp.com/index 
 
 Default user login:  bob:pass
