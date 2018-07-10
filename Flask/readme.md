@@ -1,3 +1,10 @@
+# work in progress 
+1. Link to each project and site
+2. Quick description of each project 
+3. Detailed description in each projects readme
+4. tools used in each project in their readme
+5. list resource used to help make each project
+
 # Flask sites and APis
 A mix of sites/Apis I made over time, some of these are old and Im just getting around to getting them hosted and uploaded.
 
