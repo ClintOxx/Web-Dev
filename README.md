@@ -15,6 +15,12 @@ I plan to eventually try my hand at using Typescript to make a project.
 # -work in progress- 
 -insert links to each project here-
 
+-update each project with docstrings and pytest-
+
+-each project is gonna have an overhaul- 
 
 
 -info about js framworks used-
+
+
+Feel free to ask questions if you ened help with setting anything up
