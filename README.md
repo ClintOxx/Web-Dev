@@ -1,14 +1,26 @@
 # Web-Dev
-Itead of making several different repos to show off what I have learned with fullstack dev, I decided to place my projects all in one repo.
+Intead of making several different repos to show off what I have learned with fullstack dev, I decided to condense them into one repo.
 
-Some of the projects on here are projects I made following tutorials over the last year, while others are 100% made by me, some are a mix between the two.
+Over the last year I made some of these projects by following tutorials, while others are 100% made by me, the rest are a combination of the two.
 
-This  repo is split between my projects that use Flask and Django backends. 
+This repo is split between my projects that use Flask and Django backends. The Django side is severely lacking and the Flask projects will be updated.
 
-Pure Javascript frontends and JS frameworks like Vue, React are used in the projects.
+
+I have a couple private projects with code that I can't make public, but ill try to link to the sites where possible.
+
 
 I plan to eventually try my hand at using Typescript to make a project.
 
-I have a few private projects with code that is not publically aviable on here for privacy reasons. There are still urls to link to the private projects when possible.
 
+# -work in progress- 
 -insert links to each project here-
+
+-update each project with docstrings and pytest-
+
+-each project is gonna have an overhaul- 
+
+
+-info about js framworks used-
+
+
+Feel free to ask questions if you need help with setting anything up

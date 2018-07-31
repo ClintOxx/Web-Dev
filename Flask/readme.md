@@ -1,18 +1,26 @@
+# work in progress 
+1. Link to each project and site
+2. Quick description of each project 
+3. Detailed description in each projects readme
+4. tools used in each project in their readme
+5. list resource used to help make each project
+
 # Flask sites and APis
-A mix of sites/Apis I made by myself or by following tutorials since Dec 2017. Some of these are old and Im just getting around to getting them hosted and uploaded.
+A mix of sites/Apis I made over time, some of these are old and Im just getting around to getting them hosted and uploaded.
 
-Each site can be cloned and ran locally. Visit each folder to get the specific installation instructions
+This page will contain a breif overview of each site, with a link to the demo and the specific folder. 
+
+Each site can be cloned and ran locally.
 
 
-## live versions 
-Each website that is hosted on Heroku occasionally goes to sleep since Heroku's free tier doesnt keep servers up 24/7. So give it a few seconds the first time you interact with each site. 
+## Live demos 
+Each website that is hosted on Heroku goes to sleep 30 mins since its last interaction. Heroku's free tier doesnt keep servers up 24/7, So give it a few seconds the first time you interact with each site. 
 
-The code you see in the repo's is the same code in the Heroku site.
 
 Each site uses a Postgress SQl database.
 
 
-### Microblog made by following Miguel Grinberg's Microblog tutorial.
+### Microblog 
 https://clint-flask-microblog.herokuapp.com/index 
 
 Default user login:  bob:pass
@@ -22,7 +30,7 @@ Default user login:  bob:pass
 
 
 ### Terrible Twitter clone 
-partially made by following TeamTreehouse's Build a Social Network with Flask course 
+Originally a part of this was made by following TeamTreehouse's Build a Social Network with Flask course, I ended up adding more to it. 
 
 https://clint-socialnw.herokuapp.com/
 
@@ -30,6 +38,9 @@ https://clint-socialnw.herokuapp.com/
 
 new front end coming soon
 
+
+### Restful Api
+https://clint-restful.herokuapp.com/
 
 
 ### Personal project - Reddit Sensei
