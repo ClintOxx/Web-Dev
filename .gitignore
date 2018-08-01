@@ -110,7 +110,9 @@ node_modules/
 Flask/Flask Restful API/Flask restful.code-workspace
 
 #js git ignore #########################################################
+
 .eslintrc.json
+.eslintrc.js
 # compiled output
 /dist
 /tmp
