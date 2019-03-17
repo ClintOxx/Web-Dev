@@ -41,10 +41,15 @@ const surveys = [{
   }]
 
 
-export function fetchSurveys() {
+  export function fetchSurvey (surveyId) {  // the params.id is passed in from Surveys.vue
     return new Promise((resolve, reject) => {
-        setTimeout(() => {
-            resolve(surveys)
-        }, 300)
+      setTimeout(() => {
+        const survey = surveys.find(survey => survey.id === surveyId)
+        if (survey) {
+          resolve(survey)
+        } else {
+          reject(Error('Survey does not exist'))
+        }
+      }, 300)
     })
-}
+  }

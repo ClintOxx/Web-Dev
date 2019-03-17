@@ -11,6 +11,10 @@ export default new Router({
       path: '/',
       name: 'Home',
       component: Home
+    }, {
+      path: '/surveys/:id',
+      name: 'Survey',
+      component: Survey
     }
   ]
 })

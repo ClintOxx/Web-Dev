@@ -1,9 +1,47 @@
+<template>  
 <div>  
-  <h3>I'm a Survey Component</h3>
+    <section class="hero is-primary">
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <h2 class="title">{{ survey.name }}</h2>
+          
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+
+        <div class="columns">
+          <div class="column is-10 is-offset-1">
+
+            <div v-for="question in survey.questions" v-bind:key="question.id">
+
+                  <div class="column is-offset-3 is-6">
+                    <h4 class='title has-text-centered'>{{ question.text }}</h4>
+                  </div>
+                  <div class="column is-offset-4 is-4">
+                    <div class="control">
+                      <div v-for="choice in question.choices" v-bind:key="choice.id">
+                        <label class="radio">
+                        <input type="radio" v-model="question.choice" :value="choice.id">
+                        {{ choice.text }}
+                      </label>
+                      </div>
+                    </div>
+                  </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
 </div>  
 </template>
 
 <script>  
+import { fetchSurvey } from '@/api'  
 export default {  
   data() {
     return {
@@ -11,11 +49,13 @@ export default {
     }
   },
   beforeMount() {
-    console.log('Survey.beforeMount -> :id === ', this.$route.params.id)
+    fetchSurvey(parseInt(this.$route.params.id))
+      .then((response) => {
+        this.survey = response //adding just this value to the survey object that gets exported
+      })
   }
 }
 </script>
 
-<style>
-
+<style>  
 </style>  
