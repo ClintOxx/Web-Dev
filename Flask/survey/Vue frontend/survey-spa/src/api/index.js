@@ -41,7 +41,8 @@ const surveys = [{
   }]
 
 
-  export function fetchSurvey (surveyId) {  // the params.id is passed in from Surveys.vue
+  export function 
+  fetchSurvey (surveyId) {  // the params.id is passed in from Surveys.vue
     return new Promise((resolve, reject) => {
       setTimeout(() => {
         const survey = surveys.find(survey => survey.id === surveyId)
@@ -53,3 +54,13 @@ const surveys = [{
       }, 300)
     })
   }
+  
+  export function saveSurveyResponse (surveyResponse) {  
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        console.log("saving survey response...")
+        })
+        resolve()
+      }, 300)
+    }
+  

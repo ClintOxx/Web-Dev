@@ -8,15 +8,19 @@
         </div>
       </div>
     </section>
-    <section class="section">
+<section class="section">
       <div class="container">
 
         <div class="columns">
           <div class="column is-10 is-offset-1">
-
-            <div v-for="question in survey.questions" v-bind:key="question.id">
+            <!-- modified v-for -->
+            <div
+              v-for="(question, surveyID) in survey.questions" 
+              v-bind:key="question.id"
+              v-show="currentQuestion === surveyID"> <!-- new v-show directive -->
 
                   <div class="column is-offset-3 is-6">
+                    <!-- <h4 class='title'>{{ surveyID }}) {{ question.text }}</h4> -->
                     <h4 class='title has-text-centered'>{{ question.text }}</h4>
                   </div>
                   <div class="column is-offset-4 is-4">
@@ -25,11 +29,27 @@
                         <label class="radio">
                         <input type="radio" v-model="question.choice" :value="choice.id">
                         {{ choice.text }}
-                      </label>
+                        </label>
                       </div>
                     </div>
                   </div>
 
+            </div>
+
+            <!-- new pagination buttons -->
+            <div class="column is-offset-one-quarter is-half">
+              <nav class="pagination is-centered" role="navigation" aria-label="pagination">
+                <a class="pagination-previous" @click.stop="goToPreviousQuestion"><i class="fa fa-chevron-left" aria-hidden="true"></i> &nbsp;&nbsp; Back</a>
+                <a class="pagination-next" @click.stop="goToNextQuestion">Next &nbsp;&nbsp; <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+              </nav>
+            </div>
+
+            <!-- new submit button -->
+            <div class="column has-text-centered">
+              <a v-if="surveyComplete" class='button is-focused is-primary is-large'
+                @click.stop="handleSubmit">
+                Submit
+              </a>
             </div>
 
           </div>
@@ -37,15 +57,16 @@
 
       </div>
     </section>
-</div>  
+  </div>
 </template>
 
 <script>  
-import { fetchSurvey } from '@/api'  
+import { fetchSurvey, saveSurveyResponse } from '@/api' // new AJAX func  
 export default {  
   data() {
     return {
-      survey: {}
+      survey: {},
+      currentQuestion: 0  // new data prop
     }
   },
   beforeMount() {
@@ -53,9 +74,39 @@ export default {
       .then((response) => {
         this.survey = response //adding just this value to the survey object that gets exported
       })
+  },
+  methods: { // new Vue obj member
+    goToNextQuestion() {
+      if (this.currentQuestion === this.survey.questions.length - 1) {
+        this.currentQuestion = 0
+      } else {
+        this.currentQuestion++
+      }
+    },
+    goToPreviousQuestion() {
+      if (this.currentQuestion === 0) {
+        this.currentQuestion = this.survey.questions.lenth - 1
+      } else {
+        this.currentQuestion--
+      }
+    },
+    handleSubmit() {
+      saveSurveyResponse(this.survey)
+        .then(() => this.$router.push('/'))
+    }
+  },
+  computed: {  // new Vue obj member
+    surveyComplete() {
+      if (this.survey.questions) {
+        const numQuestions = this.survey.questions.length
+        const numCompleted = this.survey.questions.filter(q => q.choice).length
+        return numQuestions === numCompleted
+      }
+      return false
+    }
   }
 }
-</script>
+</script>  
 
 <style>  
 </style>  
