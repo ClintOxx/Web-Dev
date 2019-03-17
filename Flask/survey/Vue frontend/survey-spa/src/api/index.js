@@ -40,6 +40,13 @@ const surveys = [{
     }]
   }]
 
+  export function fetchSurveys() {  
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        resolve(surveys)
+      }, 300)
+    })
+  }
 
   export function 
   fetchSurvey (surveyId) {  // the params.id is passed in from Surveys.vue
