@@ -1,6 +1,6 @@
 # survey-spa
 
-> a Vue.js project
+> A Vue.js project
 
 ## Build Setup
 

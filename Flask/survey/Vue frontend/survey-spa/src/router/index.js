@@ -1,11 +1,12 @@
-import Vue from 'vue'  
-import Router from 'vue-router'  
+import Vue from 'vue'
+import Router from 'vue-router'
 import Home from '@/components/Home'
 import Survey from '@/components/Survey'
+import NewSurvey from '@/components/NewSurvey'
 
 Vue.use(Router)
 
-export default new Router({  
+export default new Router({
   routes: [
     {
       path: '/',
@@ -15,6 +16,10 @@ export default new Router({
       path: '/surveys/:id',
       name: 'Survey',
       component: Survey
+    }, {
+      path: '/surveys',
+      name: 'NewSurvey',
+      component: NewSurvey
     }
   ]
 })
