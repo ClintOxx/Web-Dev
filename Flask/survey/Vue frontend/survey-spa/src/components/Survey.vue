@@ -61,19 +61,15 @@
 </template>
 
 <script>  
-import { fetchSurvey, saveSurveyResponse } from '@/api' // new AJAX func  
+import {  saveSurveyResponse } from '@/api' // new AJAX func  
 export default {  
   data() {
     return {
-      survey: {},
       currentQuestion: 0  // new data prop
     }
   },
   beforeMount() {
-    fetchSurvey(parseInt(this.$route.params.id))
-      .then((response) => {
-        this.survey = response //adding just this value to the survey object that gets exported
-      })
+    this.$store.dispatch('loadSurvey', { id: parseInt(this.$route.params.id) })
   },
   methods: { // new Vue obj member
     goToNextQuestion() {
@@ -103,6 +99,9 @@ export default {
         return numQuestions === numCompleted
       }
       return false
+    },
+    survey() {
+      return this.$store.state.currentSurvey
     }
   }
 }
