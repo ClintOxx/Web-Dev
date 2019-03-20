@@ -32,7 +32,7 @@ I plan to eventually try my hand at potentially using Typescript for the fronten
 [Click here for more Info](https://github.com/ClintOxx/Web-Dev/tree/master/Flask#restful-api)
 
 
-date TBD:
+completion date TBD:
 -updating each project with docstrings and pytest-
 
 -each project is gonna have an overhaul- 
