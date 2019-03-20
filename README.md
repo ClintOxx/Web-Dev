@@ -33,6 +33,7 @@ I plan to eventually try my hand at potentially using Typescript for the fronten
 
 
 completion date TBD:
+
 -updating each project with docstrings and pytest-
 
 -each project is gonna have an overhaul- 
