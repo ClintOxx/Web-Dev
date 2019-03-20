@@ -19,34 +19,87 @@ Each website that is hosted on Heroku goes to sleep 30 mins since its last inter
 
 Each site uses a Postgress SQl database.
 
+
 ### Personal project - Reddit Sensei
+https://redditsensei.com (site is temporaily down)
+
+Description:
 The code is not hosted publically on github since its a personal business project. 
-'list features; 
+
+The purpose of this project is to increase your (business or personal) outreach on reddit gaurenteeing tha you will make it to the front page of the subreddit you want to target. I did this by using an complex chain of technologies to simulate an actual user voting on whatever post or comment you submit. Thes ite is functional, just finishes a few improvements before putting it online again.
+
+Features & Technologies:
+- Vue.js
+- Vuex
+- Vue-Router
+- Single Page App
+- Axios
+- Bootstrap css
+- Particle.js
+- Flask
+- Application Factory /w Blueprints
+- Albemic
+- Postgress SQL
+- Flask Restless
+- Celery
+- Redis 
+- JWT
+& more
+ 
+
+
 
 ### Survey/Questionaire
+
+Description:
+This is really just a simple single page app that utelizes Vue-Router to handle switching between components to display diferent questions without having to refresh the screen
+
+
+Features & Technologies
+
+- Vue.js Cli 2
+- Vuex
+- Vue-Router
+- Vue resource
+- Flask
+- JWT
+
 
 ### Microblog 
 https://clint-flask-microblog.herokuapp.com/index 
 
-Default user login:  bob:pass
+Default user:pass login:  bob:pass
 
-'list features'
+Description:
+Originally a portion of this was made by following TeamTreehouse's Build a Social Network with Flask course, I ended up adding more to it. The frontend will be updated with Vue and made to look better and more modern, thinking about if i want to include Vue-Bootstrap to give it the authentic twitter feel lol.
+
+
+Features & Technologies
+
 
 
 
 ### Terrible Twitter clone 
-Originally a part of this was made by following TeamTreehouse's Build a Social Network with Flask course, I ended up adding more to it. 
-
 https://clint-socialnw.herokuapp.com/
+https://github.com/ClintOxx/Web-Dev/tree/master/Flask/Social%20Network
 
-'create default user and lists features' 
+Description:
+Originally a portion of this was made by following TeamTreehouse's Build a Social Network with Flask course, I ended up adding more to it. The frontend will be updated with Vue and made to look better and more modern, thinking about if i want to include Vue-Bootstrap to give it the authentic twitter feel lol.
 
-new front end coming soon
+
+Features & Technologies
+
+
 
 
 ### Restful Api
 https://clint-restful.herokuapp.com/
 
+Description:
+Originally a portion of this was made by following TeamTreehouse's Build a Social Network with Flask course, I ended up adding more to it. The frontend will be updated with Vue and made to look better and more modern, thinking about if i want to include Vue-Bootstrap to give it the authentic twitter feel lol.
+
+
+Features & Technologies
 
 
 
