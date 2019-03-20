@@ -50,6 +50,8 @@ Features & Technologies:
 
 
 ### Survey/Questionaire
+(Will host on heroku when i have the freetime)
+https://github.com/ClintOxx/Web-Dev/tree/master/Flask/survey
 
 Description:
 This is really just a simple single page app that utelizes Vue-Router to handle switching between components to display diferent questions without having to refresh the screen
@@ -65,8 +67,11 @@ Features & Technologies
 - JWT
 
 
+
+
 ### Microblog 
 https://clint-flask-microblog.herokuapp.com/index 
+https://github.com/ClintOxx/Web-Dev/tree/master/Flask/Microblog
 
 Default user:pass login:  bob:pass
 
@@ -94,6 +99,7 @@ Features & Technologies
 
 ### Restful Api
 https://clint-restful.herokuapp.com/
+https://github.com/ClintOxx/Web-Dev/tree/master/Flask/Flask%20Restful%20API
 
 Description:
 Originally a portion of this was made by following TeamTreehouse's Build a Social Network with Flask course, I ended up adding more to it. The frontend will be updated with Vue and made to look better and more modern, thinking about if i want to include Vue-Bootstrap to give it the authentic twitter feel lol.
