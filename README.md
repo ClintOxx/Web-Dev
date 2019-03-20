@@ -12,20 +12,24 @@ I plan to eventually try my hand at potentially using Typescript for the fronten
 
 # Links for more information on each project
 
-## 1. Redditsensei(Vue.js)
-[I'm an inline-style link](https://www.google.com)
+### 1. Redditsensei(Vue.js)
+[Click here for more Info](https://github.com/ClintOxx/Web-Dev/blob/master/Flask/readme.md#personal-project---reddit-sensei)
 
 
-## 2. Survey/Questionaire app(Vue.js)
+### 2. Survey/Questionaire app(Vue.js)
+[Click here for more Info](https://github.com/ClintOxx/Web-Dev/blob/master/Flask/readme.md#surveyquestionaire)
 
 
-## 3. Microblog(React,js)
+### 3. Microblog(React,js)
+[Click here for more Info](https://github.com/ClintOxx/Web-Dev/blob/master/Flask/readme.md#microblog)
 
 
-## 4. Terrible Twitter Clone(Vue.js)
+### 4. Terrible Twitter Clone(Vue.js)
+[Click here for more Info](https://github.com/ClintOxx/Web-Dev/blob/master/Flask/readme.md#terrible-twitter-clone)
 
 
-## .5 Restful Ai(No Frontend)
+### .5 Restful Ai(No Frontend)
+[Click here for more Info](https://github.com/ClintOxx/Web-Dev/blob/master/Flask/readme.md#terrible-twitter-clone)
 
 
 date TBD:
