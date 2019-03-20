@@ -58,6 +58,8 @@ Features & Technologies:
 (Will host on heroku when i have the freetime)
 https://github.com/ClintOxx/Web-Dev/tree/master/Flask/survey
 
+![alt text](https://i.imgur.com/fNTwfxC.png?1 "Logo Title Text 1")
+
 Description:
 This is really just a simple single page app that utelizes Vue-Router to handle switching between components to display diferent questions without having to refresh the screen
 
