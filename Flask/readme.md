@@ -24,7 +24,7 @@ https://redditsensei.com (site is temporaily down)
 Description:
 The code is not hosted publically on github since its a personal business project. 
 
-The purpose of this project is to increase your (business or personal) outreach on reddit gaurenteeing tha you will make it to the front page of the subreddit you want to target. I did this by using an complex chain of technologies to simulate an actual user voting on whatever post or comment you submit. Thes ite is functional, just finishes a few improvements before putting it online again.
+The purpose of this project is to increase your (business or personal) outreach on reddit guaranteeing that you will make it to the front page of the subreddit you want to target. I did this by using an complex chain of technologies to simulate an actual user voting on whatever post or comment you submit. Thes ite is functional, just finishes a few improvements before putting it online again.
 
 Features & Technologies:
 - Vue.js
