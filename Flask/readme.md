@@ -1,9 +1,7 @@
-# work in progress 
-1. Link to each project and site
-2. Quick description of each project 
-3. Detailed description in each projects readme
-4. tools used in each project in their readme
-5. list resource used to help make each project
+## work in progress 
+3. How to use/setup in each projects readme
+4. upload latest versions
+
 
 # Flask sites and APis
 A mix of sites/Apis I made over time, some of these are old and Im just getting around to getting them hosted and uploaded.
@@ -39,11 +37,15 @@ Features & Technologies:
 - Flask
 - Application Factory /w Blueprints
 - Albemic
+- Flask- SQL alchemy
 - Postgress SQL
 - Flask Restless
 - Celery
 - Redis 
 - JWT
+- email crash logging
+- pytest(function & unit)
+- OOP
 & more
  
 
@@ -76,12 +78,25 @@ https://github.com/ClintOxx/Web-Dev/tree/master/Flask/Microblog
 Default user:pass login:  bob:pass
 
 Description:
-Originally a portion of this was made by following TeamTreehouse's Build a Social Network with Flask course, I ended up adding more to it. The frontend will be updated with Vue and made to look better and more modern, thinking about if i want to include Vue-Bootstrap to give it the authentic twitter feel lol.
-
+The frontend will be updated with React(in progress) and made to look better and more modern, its just a simple blogging platform, not all that different from the twitter app but with more features and a different way of using Flask to set it up.
 
 Features & Technologies
 
-
+- React.js
+- Redux
+- React-Router
+- Single Page App
+- Flask
+- Flask- SQL alchemy
+- Application Factory 
+- Albemic
+- Postgress SQL
+- Flask Restless
+- Celery
+- Redis 
+- JWT
+- notifications
+& more
 
 
 ### Terrible Twitter clone 
@@ -89,12 +104,15 @@ https://clint-socialnw.herokuapp.com/
 https://github.com/ClintOxx/Web-Dev/tree/master/Flask/Social%20Network
 
 Description:
-Originally a portion of this was made by following TeamTreehouse's Build a Social Network with Flask course, I ended up adding more to it. The frontend will be updated with Vue and made to look better and more modern, thinking about if i want to include Vue-Bootstrap to give it the authentic twitter feel lol.
+Originally a portion of this was made by following TeamTreehouse's Build a Social Network with Flask course, I ended up adding more to it. The frontend will be updated with Vue (in progress) and made to look better and more modern, thinking about if i want to include Vue-Bootstrap to give it the authentic twitter feel lol.
 
 
 Features & Technologies
 
-
+- Flask
+- Javascript
+- peeweee (ORM)
+- SqLite3 
 
 
 ### Restful Api
@@ -102,11 +120,15 @@ https://clint-restful.herokuapp.com/
 https://github.com/ClintOxx/Web-Dev/tree/master/Flask/Flask%20Restful%20API
 
 Description:
-Originally a portion of this was made by following TeamTreehouse's Build a Social Network with Flask course, I ended up adding more to it. The frontend will be updated with Vue and made to look better and more modern, thinking about if i want to include Vue-Bootstrap to give it the authentic twitter feel lol.
+These were some Rest apis i made using flask by itself and then using the Flask-Restful module. You can actually ping the api's with a tester like this : https://apitester.com/ . I will update with the api endpoints 
 
 
 Features & Technologies
-
+- flask
+- flask restful 
+- sql alchemy 
+- SqLite3 
+- JWT 
 
 
 
