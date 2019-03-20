@@ -19,6 +19,10 @@ Each website that is hosted on Heroku goes to sleep 30 mins since its last inter
 
 Each site uses a Postgress SQl database.
 
+### Personal project - Reddit Sensei
+The code is not hosted publically on github since its a personal business project. 
+'list features; 
+
 
 ### Microblog 
 https://clint-flask-microblog.herokuapp.com/index 
@@ -43,8 +47,6 @@ new front end coming soon
 https://clint-restful.herokuapp.com/
 
 
-### Personal project - Reddit Sensei
-The code is not hosted publically on github since its a personal business project. 
-'list features; 
+
 
 
