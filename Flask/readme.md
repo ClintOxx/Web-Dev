@@ -21,7 +21,7 @@ Each site uses a Postgress SQl database.
 ### Personal project - Reddit Sensei
 https://redditsensei.com (site is temporaily down)
 
-![alt text](https://i.imgur.com/PqvNx01.png "Logo Title Text 1")
+![alt text](https://i.imgur.com/Rh7kNJI.png "Logo Title Text 1")
 
 
 Description:
