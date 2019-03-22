@@ -125,7 +125,10 @@ https://clint-restful.herokuapp.com/
 https://github.com/ClintOxx/Web-Dev/tree/master/Flask/Flask%20Restful%20API
 
 Description:
-These were some Rest apis i made using flask by itself and then using the Flask-Restful module. You can actually ping the api's with a tester like this : https://apitester.com/ . I will update with the api endpoints 
+These were some Rest apis i made using flask by itself and then using the Flask-Restful module. You can actually ping the api's with a tester like this : https://apitester.com/ . 
+
+api endpoints:
+https://documenter.getpostman.com/view/4768713/S17rvUDQ 
 
 
 Features & Technologies
