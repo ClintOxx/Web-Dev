@@ -39,7 +39,7 @@ Features & Technologies:
   * Axios
   * Bootstrap css
 
-Progressive Web App
+- Progressive Web App
   * App manifest
   * Service worker
 
