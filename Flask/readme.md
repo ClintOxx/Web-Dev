@@ -67,19 +67,17 @@ Dependencies(Vuetify overhaul coming soon)
 |[vuex]|️Centralized State Management for Vue.js|🗃️
 |[vuetify]|️Material Component Framework for Vue.js|📚
 
-[vue]: https://vuejs.org
-[vue-router]: https://router.vuejs.org
-[vue-cli-3]: https://cli.vuejs.org
-[vuex]: https://vuex.vuejs.org
-[vuetify]: https://vuetifyjs.com
-
-
 | Name| Description | |
 |--|--|:--:| 
 |[stylus-loader]|CSS preprocessor for webpack|🎨
 |[vue/cli-plugin-babel]|Compiler for next generation JavaScript|🐠
 |[vue/cli-plugin-eslint]|Pluggable JavaScript linter|✍️
 |[vue/cli-plugin-pwa]|JavaScript Library for adding support to PWA|📱
+
+[stylus-loader]: https://github.com/shama/stylus-loader
+[vue/cli-plugin-babel]: https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel
+[vue/cli-plugin-eslint]: https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint
+[vue/cli-plugin-pwa]: https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-pwa
 
 
 
