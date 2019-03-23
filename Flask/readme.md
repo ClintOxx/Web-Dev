@@ -58,6 +58,7 @@ Features & Technologies:
 
 ### Built With
 Dependencies
+
 | Name| Description | |
 |--|--|:--:| 
 |[vue]|Progressive JavaScript Framework|🖖
