@@ -127,8 +127,10 @@ https://github.com/ClintOxx/Web-Dev/tree/master/Flask/Flask%20Restful%20API
 Description:
 These were some Rest apis i made using flask by itself and then using the Flask-Restful module. You can actually ping the api's with a tester like this : https://apitester.com/ . 
 
-api endpoints:
+api endpoints documentation:
 https://documenter.getpostman.com/view/4768713/S17rvUDQ 
+
+![alt text](https://i.imgur.com/hHXf3qv.png "Logo Title Text 1")
 
 
 Features & Technologies
