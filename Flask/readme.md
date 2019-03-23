@@ -130,7 +130,7 @@ These were some Rest apis i made using flask by itself and then using the Flask-
 api endpoints documentation:
 https://documenter.getpostman.com/view/4768713/S17rvUDQ 
 
-![alt text](https://i.imgur.com/hHXf3qv.png "Logo Title Text 1")
+![alt text](https://i.imgur.com/Ju7O9VS.png "Logo Title Text 1")
 
 
 Features & Technologies
