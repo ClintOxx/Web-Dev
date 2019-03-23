@@ -1,10 +1,6 @@
-## work in progress 
-3. How to use/setup in each projects readme
-4. upload latest versions
-
 
 # Flask sites and APis
-A mix of sites/Apis I made over time, some of these are old and Im just getting around to getting them hosted and uploaded.
+A mix of sites/Apis I made over time, either to learn or for personal projects. Some of these are old and might not have the lastest versions uploaded yet.
 
 This page will contain a breif overview of each site, with a link to the demo and the specific folder. 
 
@@ -68,18 +64,20 @@ https://github.com/ClintOxx/Web-Dev/tree/master/Flask/survey
 ![alt text](https://i.imgur.com/fNTwfxC.png?1 "Logo Title Text 1")
 
 Description:
-This is really just a simple single page app that utelizes Vue-Router to handle switching between components to display diferent questions without having to refresh the screen
+This is really just a simple single page app that utelizes Vue-Router to handle switching between components to display diferent questions without having to refresh the screen. You can sign up/sign in to create new surveys
 
 
 Features & Technologies
 
 - Vue.js Cli 2
-- Vuex
-- Vue-Router
-- Vue resource
+  - Vuex
+  - Vue-Router
+-   Vue resource
 - Flask
-- JWT
-
+  - JWT
+  * Flask-SQL Alchemy
+  * Postgress SQL
+  * Flask-Restlful
 
 
 
@@ -95,20 +93,40 @@ The frontend will be updated with React(in progress) and made to look better and
 Features & Technologies
 
 - React.js
-- Redux
-- React-Router
-- Single Page App
+  - Redux
+  - React-Router
+  - Single Page App
 - Flask
-- Flask- SQL alchemy
-- Application Factory 
-- Albemic
-- Postgress SQL
-- Flask Restless
-- Celery
-- Redis 
-- JWT
-- notifications
-& more
+  - Flask- SQL alchemy
+  - Application Factory 
+  - Albemic
+  - Postgress SQL
+  - Flask-Restful
+  - Celery
+  - Redis 
+  - JWT
+  - notifications
+  & more
+
+### Restful Api
+https://clint-restful.herokuapp.com/
+https://github.com/ClintOxx/Web-Dev/tree/master/Flask/Flask%20Restful%20API
+
+Description:
+These were some Rest apis i made using flask by itself and then using the Flask-Restful module. You can actually ping the api's with a tester like this : https://apitester.com/ . 
+
+api endpoints documentation:
+https://documenter.getpostman.com/view/4768713/S17rvUDQ 
+
+![alt text](https://i.imgur.com/Ju7O9VS.png "Logo Title Text 1")
+
+
+Features & Technologies
+- Flask
+  - Flask-Restful 
+  - sql alchemy 
+  - SqLite3 
+  - JWT 
 
 
 ### Terrible Twitter clone 
@@ -127,25 +145,8 @@ Features & Technologies
 - SqLite3 
 
 
-### Restful Api
-https://clint-restful.herokuapp.com/
-https://github.com/ClintOxx/Web-Dev/tree/master/Flask/Flask%20Restful%20API
-
-Description:
-These were some Rest apis i made using flask by itself and then using the Flask-Restful module. You can actually ping the api's with a tester like this : https://apitester.com/ . 
-
-api endpoints documentation:
-https://documenter.getpostman.com/view/4768713/S17rvUDQ 
-
-![alt text](https://i.imgur.com/Ju7O9VS.png "Logo Title Text 1")
-
-
-Features & Technologies
-- flask
-- flask restful 
-- sql alchemy 
-- SqLite3 
-- JWT 
-
+### work in progress 
+3. How to use/setup in each projects readme
+4. upload latest versions
 
 
