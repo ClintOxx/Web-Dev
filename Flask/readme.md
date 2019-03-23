@@ -30,26 +30,33 @@ The code is not hosted publically on github since its a personal business projec
 The purpose of this project is to increase your (business or personal) outreach on reddit guaranteeing that you will make it to the front page of the subreddit you want to target. I did this by using an complex chain of technologies to simulate an actual user voting on whatever post or comment you submit. Thes ite is functional, just finishes a few improvements before putting it online again.
 
 Features & Technologies:
-- Vue.js
-- Vuex
-- Vue-Router
-- Single Page App
-- Axios
-- Bootstrap css
-- Particle.js
+- Vue CLI 3 + Webpack + vue-loader for single file Vue components
+  * Hot-reload in development
+  * Lint-on-save with ESLint (Standard)
+  * Stylus CSS preprocessor
+  * Vue + vue-router + vuex working together
+  * Single Page App
+  * Axios
+  * Bootstrap css
+
+Progressive Web App
+  * App manifest
+  * Service worker
+
 - Flask
-- Application Factory /w Blueprints
-- Albemic
-- Flask- SQL alchemy
-- Postgress SQL
-- Flask Restless
-- Celery
-- Redis 
-- JWT
-- email crash logging
-- pytest(function & unit)
-- OOP
-& more
+  * Application Factory /w Blueprints
+  * Albemic
+  * Concurrent Futures Multithreading
+  * Flask-SQL Alchemy
+  * Postgress SQL
+  * Flask-Restlful
+  * Celery
+  * Redis 
+  * JWT
+  * automatic email logging
+  * pytest(function & unit)
+  * OOP Modular design
+  * & more
  
 
 
