@@ -51,6 +51,7 @@ Features & Technologies:
   * JWT
   * automatic email logging
   * pytest(function & unit)
+  * Key Generator using Python Secrets module
   * OOP Modular design
   * & more
  
