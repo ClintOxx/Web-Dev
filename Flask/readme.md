@@ -67,7 +67,7 @@ Dependencies(Vuetify or Bulma overhaul coming soon)
 |[vue-cli-3]|️Standard Tooling for Vue.js Development|🛠️
 |[vue-router]|Official Router for Vue.js|🚦
 |[vuex]|️Centralized State Management for Vue.js|🗃️
-|Buefy]|️Bulma SASS framework + Vue components for Vue.js|📚
+|[Buefy]|️Bulma SASS framework + Vue components for Vue.js|📚
 
 [vue]: https://vuejs.org
 [vue-router]: https://router.vuejs.org
