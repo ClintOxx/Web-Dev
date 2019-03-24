@@ -58,7 +58,7 @@ Features & Technologies:
 ## More info on libraries/dependcies used for frontend
 
 ### Built With
-Dependencies(Vuetify overhaul coming soon)
+Dependencies(Vuetify or Bulma overhaul coming soon)
 
 | Name| Description | |
 |--|--|:--:| 
