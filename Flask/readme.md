@@ -34,6 +34,7 @@ Features & Technologies:
   * Single Page App
   * Axios
   * Bootstrap css
+  * Buefy(Bulma Css/SASS framework)
 
 - Progressive Web App
   * App manifest
@@ -66,13 +67,13 @@ Dependencies(Vuetify or Bulma overhaul coming soon)
 |[vue-cli-3]|️Standard Tooling for Vue.js Development|🛠️
 |[vue-router]|Official Router for Vue.js|🚦
 |[vuex]|️Centralized State Management for Vue.js|🗃️
-|[vuetify]|️Material Component Framework for Vue.js|📚
+|Buefy]|️Bulma SASS framework + Vue components for Vue.js|📚
 
 [vue]: https://vuejs.org
 [vue-router]: https://router.vuejs.org
 [vue-cli-3]: https://cli.vuejs.org
 [vuex]: https://vuex.vuejs.org
-[vuetify]: https://vuetifyjs.com
+[Buefy]: https://buefy.org/
 
 
 | Name| Description | |
