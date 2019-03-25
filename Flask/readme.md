@@ -35,6 +35,7 @@ Features & Technologies:
   * Axios
   * Bootstrap css
   * Buefy(Bulma Css/SASS framework)
+  * Flexbox
 
 - Progressive Web App
   * App manifest
