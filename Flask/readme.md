@@ -99,14 +99,14 @@ Dependencies
 
 ### Restful Api
 
-https://clint-restful.herokuapp.com/
+Endpoint base url: https://clint-restful.herokuapp.com/
 
 [Repo link](https://github.com/ClintOxx/Web-Dev/tree/master/Flask/Flask%20Restful%20API)
 
 Description:
 These were some Rest apis i made using flask by itself and then using the Flask-Restful module. You can actually ping the api's with a tester like this : https://apitester.com/ . 
 
-[api endpoints documentation](https://documenter.getpostman.com/view/4768713/S17rvUDQ)
+[Api endpoint documentation](https://documenter.getpostman.com/view/4768713/S17rvUDQ)
 
 
 Features & Technologies
@@ -132,8 +132,10 @@ POST /register | https://clint-restful.herokuapp.com/register | registers and Ge
 
 
 ### Microblog 
+
 https://clint-flask-microblog.herokuapp.com/index 
-https://github.com/ClintOxx/Web-Dev/tree/master/Flask/Microblog
+
+[Repo link](https://github.com/ClintOxx/Web-Dev/tree/master/Flask/Microblog)
 
 Default user:pass login:  bob:pass
 
@@ -162,7 +164,8 @@ Features & Technologies
 
 ### Survey/Questionaire
 (Will host on heroku when i have the freetime)
-https://github.com/ClintOxx/Web-Dev/tree/master/Flask/survey
+
+[Repo link](https://github.com/ClintOxx/Web-Dev/tree/master/Flask/survey)
 
 ![alt text](https://i.imgur.com/fNTwfxC.png?1 "Logo Title Text 1")
 
@@ -184,8 +187,10 @@ Features & Technologies
 
 
 ### Terrible Twitter clone 
+
 https://clint-socialnw.herokuapp.com/
-https://github.com/ClintOxx/Web-Dev/tree/master/Flask/Social%20Network
+
+[Repo link](https://github.com/ClintOxx/Web-Dev/tree/master/Flask/Social%20Network)
 
 Description:
 Originally a portion of this was made by following TeamTreehouse's Build a Social Network with Flask course, I ended up adding more to it. The frontend will be updated with React (in progress) and made to look better and more modern, thinking about if i want to include React-Bootstrap to give it the authentic twitter feel lol.
