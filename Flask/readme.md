@@ -90,29 +90,39 @@ Dependencies(Vuetify or Bulma overhaul coming soon)
 [vue/cli-plugin-pwa]: https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-pwa
 
 
-
-### Survey/Questionaire
-(Will host on heroku when i have the freetime)
-https://github.com/ClintOxx/Web-Dev/tree/master/Flask/survey
-
-![alt text](https://i.imgur.com/fNTwfxC.png?1 "Logo Title Text 1")
+### Restful Api
+https://clint-restful.herokuapp.com/
+https://github.com/ClintOxx/Web-Dev/tree/master/Flask/Flask%20Restful%20API
 
 Description:
-This is really just a simple single page app that utelizes Vue-Router to handle switching between components to display diferent questions without having to refresh the screen. You can sign up/sign in to create new surveys
+These were some Rest apis i made using flask by itself and then using the Flask-Restful module. You can actually ping the api's with a tester like this : https://apitester.com/ . 
+
+api endpoints documentation:
+https://documenter.getpostman.com/view/4768713/S17rvUDQ 
+
+![alt text](https://i.imgur.com/Ju7O9VS.png "Logo Title Text 1")
 
 
 Features & Technologies
-
-- Vue.js Cli 2
-  - Vuex
-  - Vue-Router
--   Vue resource
 - Flask
-  - JWT
-  * Flask-SQL Alchemy
-  * Postgress SQL
-  * Flask-Restlful
+  - Flask-Restful 
+  - sql alchemy 
+  - SqLite3 
+  - JWT 
 
+Request type | Endpoint URL | Description
+--- | --- | ---
+GET /items | https://clint-restful.herokuapp.com/items | This should return a list of items, each in json format.
+GET /stores | https://clint-restful.herokuapp.com/stores | This should return a list of stores, each in json format.
+GET /items/<name> | https://clint-restful.herokuapp.com/item/<name> | This should return one unique item, cant have duplicates each in json format.
+GET /store/<name> | https://clint-restful.herokuapp.com/store/<name> | This should return one unique item, cant have duplicates each in json format.
+POST /store/<name> | https://clint-restful.herokuapp.com/store/<name> | This should create and return one unique item, cant have duplicates each in json format.
+POST /items/<name> | https://clint-restful.herokuapp.com/item/<name> | This should create one unique item, cant have duplicates otherwise it will fail
+DEL /items/<name> | https://clint-restful.herokuapp.com/item/<name> | This should delete one unique item, item identified by name
+DEL /store/<name>  | https://clint-restful.herokuapp.com/store/<name> | This should delete one unique item, item identified by name
+PUT /items/<name> | https://clint-restful.herokuapp.com/item/<name> | This should create one unique item, or update the item it it exists
+POST /auth | https://clint-restful.herokuapp.com/auth | Gets jwt token from autherization function
+POST /register | https://clint-restful.herokuapp.com/register | registers and Gets jwt token from autherization function
 
 
 ### Microblog 
@@ -142,25 +152,29 @@ Features & Technologies
   - notifications
   & more
 
-### Restful Api
-https://clint-restful.herokuapp.com/
-https://github.com/ClintOxx/Web-Dev/tree/master/Flask/Flask%20Restful%20API
+
+
+### Survey/Questionaire
+(Will host on heroku when i have the freetime)
+https://github.com/ClintOxx/Web-Dev/tree/master/Flask/survey
+
+![alt text](https://i.imgur.com/fNTwfxC.png?1 "Logo Title Text 1")
 
 Description:
-These were some Rest apis i made using flask by itself and then using the Flask-Restful module. You can actually ping the api's with a tester like this : https://apitester.com/ . 
-
-api endpoints documentation:
-https://documenter.getpostman.com/view/4768713/S17rvUDQ 
-
-![alt text](https://i.imgur.com/Ju7O9VS.png "Logo Title Text 1")
+This is really just a simple single page app that utelizes Vue-Router to handle switching between components to display diferent questions without having to refresh the screen. You can sign up/sign in to create new surveys
 
 
 Features & Technologies
+
+- Vue.js Cli 2
+  - Vuex
+  - Vue-Router
+-   Vue resource
 - Flask
-  - Flask-Restful 
-  - sql alchemy 
-  - SqLite3 
-  - JWT 
+  - JWT
+  * Flask-SQL Alchemy
+  * Postgress SQL
+  * Flask-Restlful
 
 
 ### Terrible Twitter clone 
