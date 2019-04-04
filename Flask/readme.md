@@ -41,6 +41,12 @@ Features & Technologies:
   * App manifest
   * Service worker
 
+- [Created a Crud admin panel](https://github.com/ClintOxx/vuetify-admin-dashboard) 
+  * Vuetify
+  * CRUD tables 
+  * JWT auth with token refresh, blacklisting 
+  * User roles 
+
 - Flask
   * Application Factory /w Blueprints
   * Albemic
@@ -60,7 +66,7 @@ Features & Technologies:
 ## More info on libraries/dependcies used for frontend
 
 ### Built With
-Dependencies(Vuetify or Bulma overhaul coming soon)
+Dependencies
 
 | Name| Description | |
 |--|--|:--:| 
@@ -69,6 +75,7 @@ Dependencies(Vuetify or Bulma overhaul coming soon)
 |[vue-router]|Official Router for Vue.js|🚦
 |[vuex]|️Centralized State Management for Vue.js|🗃️
 |[Buefy]|️Bulma SASS framework + Vue components for Vue.js|📚
+|[Vuetify Admin Panel](https://github.com/ClintOxx/vuetify-admin-dashboard) | Crud Admin panel made with vue |📚
 
 [vue]: https://vuejs.org
 [vue-router]: https://router.vuejs.org
@@ -182,7 +189,7 @@ https://clint-socialnw.herokuapp.com/
 https://github.com/ClintOxx/Web-Dev/tree/master/Flask/Social%20Network
 
 Description:
-Originally a portion of this was made by following TeamTreehouse's Build a Social Network with Flask course, I ended up adding more to it. The frontend will be updated with Vue (in progress) and made to look better and more modern, thinking about if i want to include Vue-Bootstrap to give it the authentic twitter feel lol.
+Originally a portion of this was made by following TeamTreehouse's Build a Social Network with Flask course, I ended up adding more to it. The frontend will be updated with React (in progress) and made to look better and more modern, thinking about if i want to include React-Bootstrap to give it the authentic twitter feel lol.
 
 
 Features & Technologies
