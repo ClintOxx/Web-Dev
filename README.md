@@ -8,7 +8,7 @@ I have a couple private projects with code that I can't make public, but ill  li
 I plan to eventually try my hand at using Typescript for the frontend of one of these projects. 
 
 
-# Directory: Links to repo and more information on each project
+# Directory: Links to repo & more information on each project
 
 ### 1. Redditsensei(Flask/Vue.js)
 [Click here for more Info](https://github.com/ClintOxx/Web-Dev/tree/master/Flask#personal-project---reddit-sensei)
