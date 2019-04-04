@@ -66,7 +66,7 @@ Features & Technologies:
 ### More info on libraries/dependcies used for frontend
 
 Built With
-Dependencies
+Dependencies(incomplete list)
 
 | Name| Description | |
 |--|--|:--:| 
