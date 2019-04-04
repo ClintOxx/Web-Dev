@@ -98,16 +98,15 @@ Dependencies
 
 
 ### Restful Api
+
 https://clint-restful.herokuapp.com/
-https://github.com/ClintOxx/Web-Dev/tree/master/Flask/Flask%20Restful%20API
+
+[Repo link](https://github.com/ClintOxx/Web-Dev/tree/master/Flask/Flask%20Restful%20API)
 
 Description:
 These were some Rest apis i made using flask by itself and then using the Flask-Restful module. You can actually ping the api's with a tester like this : https://apitester.com/ . 
 
-api endpoints documentation:
-https://documenter.getpostman.com/view/4768713/S17rvUDQ 
-
-![alt text](https://i.imgur.com/Ju7O9VS.png "Logo Title Text 1")
+[api endpoints documentation](https://documenter.getpostman.com/view/4768713/S17rvUDQ)
 
 
 Features & Technologies
@@ -115,7 +114,7 @@ Features & Technologies
   - Flask-Restful 
   - sql alchemy 
   - SqLite3 
-  - JWT 
+  - JWT
 
 Request type | Endpoint URL | Description
 --- | --- | ---
