@@ -13,17 +13,20 @@ I plan to eventually try my hand at using Typescript for the frontend of one of 
 ### 1. Redditsensei(Flask/Vue.js)
 [Click here for more Info](https://github.com/ClintOxx/Web-Dev/tree/master/Flask#personal-project---reddit-sensei)
 
-### 2. Restful Api(/Flask/No Frontend)
+### 2. Vuetify Admin Crud Panel(Flask/Vue.js)
+[Click here for more Info](https://github.com/ClintOxx/vuetify-admin-dashboard)
+
+### 3. Restful Api(/Flask/No Frontend)
 [Click here for more Info](https://github.com/ClintOxx/Web-Dev/tree/master/Flask#restful-api)
 
-### 3. Microblog(Django/React.js)
+### 4. Microblog(Django/React.js)
 [Click here for more Info](https://github.com/ClintOxx/Web-Dev/tree/master/Flask#microblog)
 Rewriting this backend with django. Currently it is using flask
 
-### 4. Terrible Twitter Clone(Flask/React.js)
+### 5. Terrible Twitter Clone(Flask/React.js)
 [Click here for more Info](https://github.com/ClintOxx/Web-Dev/tree/master/Flask#terrible-twitter-clone)
 
-### 5. Survey/Questionaire app(Flask/Vue.js)
+### 6. Survey/Questionaire app(Flask/Vue.js)
 [Click here for more Info](https://github.com/ClintOxx/Web-Dev/tree/master/Flask#surveyquestionaire)
 
 
