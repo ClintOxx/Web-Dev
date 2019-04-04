@@ -14,7 +14,7 @@ Each website that is hosted on Heroku goes to sleep 30 mins since its last inter
 Each site uses a Postgress SQl database.
 
 
-### Personal project - Reddit Sensei
+## Personal project - Reddit Sensei
 https://redditsensei.com (site is temporaily down)
 
 ![alt text](https://i.imgur.com/Rh7kNJI.png "Logo Title Text 1")
@@ -63,9 +63,9 @@ Features & Technologies:
   * OOP Modular design
   * & more
  
-## More info on libraries/dependcies used for frontend
+### More info on libraries/dependcies used for frontend
 
-### Built With
+Built With
 Dependencies
 
 | Name| Description | |
@@ -97,7 +97,7 @@ Dependencies
 [vue/cli-plugin-pwa]: https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-pwa
 
 
-### Restful Api
+## Restful Api
 
 Endpoint base url: https://clint-restful.herokuapp.com/
 
@@ -131,7 +131,7 @@ POST /auth | https://clint-restful.herokuapp.com/auth | Gets jwt token from auth
 POST /register | https://clint-restful.herokuapp.com/register | registers and Gets jwt token from autherization function
 
 
-### Microblog 
+## Microblog 
 
 https://clint-flask-microblog.herokuapp.com/index 
 
@@ -162,7 +162,7 @@ Features & Technologies
 
 
 
-### Survey/Questionaire
+## Survey/Questionaire
 (Will host on heroku when i have the freetime)
 
 [Repo link](https://github.com/ClintOxx/Web-Dev/tree/master/Flask/survey)
@@ -186,7 +186,7 @@ Features & Technologies
   * Flask-Restlful
 
 
-### Terrible Twitter clone 
+## Terrible Twitter clone 
 
 https://clint-socialnw.herokuapp.com/
 
