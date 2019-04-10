@@ -27,13 +27,11 @@ The purpose of this project is to increase your (business or personal) outreach 
 
 Features & Technologies:
 - Vue CLI 3 + Webpack + vue-loader for single file Vue components
-  * Hot-reload in development
   * Lint-on-save with ESLint (Standard)
   * Stylus CSS preprocessor
-  * Vue + vue-router + vuex working together
+  * Vue + vue-router + vuex 
   * Single Page App
   * Axios
-  * Bootstrap css
   * Buefy(Bulma Css/SASS framework)
   * Flexbox
 
@@ -41,7 +39,7 @@ Features & Technologies:
   * App manifest
   * Service worker
 
-- [Created a Crud admin panel](https://github.com/ClintOxx/vuetify-admin-dashboard) 
+- [Link: Created a Crud admin panel](https://github.com/ClintOxx/vuetify-admin-dashboard) 
   * Vuetify
   * CRUD tables 
   * JWT auth with token refresh, blacklisting 
