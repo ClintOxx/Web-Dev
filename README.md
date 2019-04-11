@@ -1,26 +1,42 @@
 # Web-Dev
-Intead of making several different repos to show off what I have learned with fullstack dev, I decided to condense them into one repo.
+Central repo with multiple projects to show off what I have learned with fullstack dev.
 
-Over the last year I made some of these projects by following tutorials, while others are 100% made by me, the rest are a combination of the two.
+This repo is split between my projects that use Flask and Django backends. The Django side is old(unfished version) and in need of an updates and the Flask projects are in progress of being updated with Vue and React frontends.
 
-This repo is split between my projects that use Flask and Django backends. The Django side is severely lacking and the Flask projects will be updated.
+I have a couple private projects with code that I can't make public, but ill  link to the sites when i finish this readme soon.
 
-
-I have a couple private projects with code that I can't make public, but ill try to link to the sites where possible.
-
-
-I plan to eventually try my hand at using Typescript to make a project.
+I plan to eventually try my hand at using Typescript for the frontend of one of these projects. 
 
 
-# -work in progress- 
--insert links to each project here-
+# Directory: Links to repo & more information on each project
 
--update each project with docstrings and pytest-
+### 1. Redditsensei(Flask/Vue.js)
+[Click here for more Info](https://github.com/ClintOxx/Web-Dev/tree/master/Flask#personal-project---reddit-sensei)
 
--each project is gonna have an overhaul- 
+### 2. Vuetify Admin Crud Panel(Flask/Vue.js)
+[Click here for more Info](https://github.com/ClintOxx/vuetify-admin-dashboard)
+
+### 3. Restful Api(/Flask/No Frontend)
+[Click here for more Info](https://github.com/ClintOxx/Web-Dev/tree/master/Flask#restful-api)
+
+### 4. Microblog(Django/React.js)
+[Click here for more Info](https://github.com/ClintOxx/Web-Dev/tree/master/Flask#microblog)
+
+Rewriting this backend with django. Currently it is using flask
+
+### 5. Terrible Twitter Clone(Flask/React.js)
+[Click here for more Info](https://github.com/ClintOxx/Web-Dev/tree/master/Flask#terrible-twitter-clone)
+
+### 6. Survey/Questionaire app(Flask/Vue.js)
+[Click here for more Info](https://github.com/ClintOxx/Web-Dev/tree/master/Flask#surveyquestionaire)
 
 
--info about js framworks used-
+
+completion date TBD:
+
+-updating each project with docstrings and pytest-
+
+-Updating the front ends and refactor backends because they are hideous looking to me right now- 
 
 
 Feel free to ask questions if you need help with setting anything up
